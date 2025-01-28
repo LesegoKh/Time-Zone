@@ -1,0 +1,85 @@
+body {
+    overflow: hidden;
+    margin:0;
+    display:flex;
+    height:100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: cursive;
+    background-color: bisque;
+}
+
+.calendar-container {
+    background-color: whitesmoke;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0,0.3);
+    text-align: center;
+}
+
+.month-name {
+    margin: 0;
+    background-color: orangered;
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: 300;
+    padding: 10px;
+}
+
+.day-name {
+    font-size: 30px;
+    color: rgb(156, 156, 156);
+}
+
+.day-number {
+    color: darkblue;
+    font-size: 80px;
+    margin: 0;
+    font-weight: 300;
+}
+
+.year {
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: 400;
+    color: darkblue;
+}
+
+.flags {
+    height: 70px;
+    width:80px;
+   
+}
+.saf {
+   padding-top: 50px;
+    height: 180px;
+    width: 200px;
+}
+
+
+.ny {
+   
+    height: 180px;
+    width: 200px;
+}
+.time-text {
+   width:200px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left: 5px;
+    background-color: rgba(169, 169, 169, 0.527); 
+}
+
+.london {
+   
+    height: 180px;
+    width: 200px;
+}
+
+
+.asia {
+ 
+    height: 180px;
+    width: 200px;
+}
